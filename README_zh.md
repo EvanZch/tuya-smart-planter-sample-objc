@@ -1,6 +1,6 @@
 Tuya iOS Smart Planter Sample
 ========================
-[中文版](README_zh.md) | [English](README_en.md)
+[English](README.md)
 
 功能概述
 ------------------------
