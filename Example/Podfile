@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'TuyaSmartPlanter-ObjC_Example' do
-  pod 'TuyaSmartPlanter-ObjC', :path => '../'
+#  pod 'TuyaSmartPlanter-ObjC', :path => '../'
   pod 'SVProgressHUD'
   pod 'TuyaSmartHomeKit'
   
