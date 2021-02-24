@@ -76,7 +76,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07F49B7B31210D454847DF69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2BFB48BF43C1F37FBF83E93C /* Pods-TuyaSmartPlanter-ObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuyaSmartPlanter-ObjC_Example.release.xcconfig"; path = "Target Support Files/Pods-TuyaSmartPlanter-ObjC_Example/Pods-TuyaSmartPlanter-ObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
 		43368AE2AAE6DE10BBC29BCA /* Pods_TuyaSmartPlanter_ObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuyaSmartPlanter_ObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TuyaSmartPlanter-ObjC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TuyaSmartPlanter-ObjC_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -312,7 +311,6 @@
 			isa = PBXGroup;
 			children = (
 				B304DB8BC98C208E40A7CB5D /* TuyaSmartPlanter-ObjC.podspec */,
-				07F49B7B31210D454847DF69 /* README.md */,
 				CFDBC926471A26B71C4F6B09 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
