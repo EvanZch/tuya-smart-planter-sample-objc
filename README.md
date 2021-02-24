@@ -1,49 +1,49 @@
 Tuya iOS Smart Planter Sample
 ========================
-[中文版](README_zh.md) | [English](README_en.md)
+[中文版](README_zh.md) 
 
-功能概述
+Functions overview
 ------------------------
 
-Tuya iOS Smart Planter Sample 提供简单示例用于对智能WiFi植物生长机的远程控制以及数据监测,该植物生长机基于Tuya IoTOS Embeded WiFi &Ble SDK实现。
+The Tuya IOS Smart Planter Sample provides a simple example for remote control and data monitoring of the Smart WiFi plant growth machine, which is built on the Tuya Iotos Embeded WiFi &Ble SDK.
 
-Tuya iOS Smart Planter Sample 已实现以下功能：
+The Tuya IOS Smart Planter Sample has realized the following functions:
 
-- 用户管理模块(注册、登录、重置密码)
-- 默认家庭创建
-- 设备配网模块(EZ配网模式)
-- 设备控制模块(植物生长机开关、风速控制、温湿度监测、土壤湿度、光照等)
+- User management module (registration, login, password reset)
+- Default family creation
+- Equipment distribution network module (EZ distribution network mode)
+- Equipment control module (plant growth machine switch, wind speed control, temperature and humidity monitoring, soil moisture, lighting, etc.)
 
-开始
+Start
 ------------------------
 
-#### 一、项目配置
+#### I.Project configuration
 
-1、根据[准备工作](https://developer.tuya.com/cn/docs/app-development/preparation/preparation?id=Ka69nt983bhh5)文档说明，注册涂鸦开发者账号，并完成应用的创建，将Sample的包名替换成创建时设置的包名。
+1.According to the [Preparation](https://developer.tuya.com/cn/docs/app-development/preparation/preparation?id=Ka69nt983bhh5) documentation,register the Doodle Developer account and complete the creation of the application, replacing the package name of Sample with the package name set at creation time.
 
-2、根据[集成SDK](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/integrate-sdk?id=Ka5d52ewngdoi)文档说明，集成安全图片以及重新设置AppKey和AppSecret。
+2.According to the[Integration SDK](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/integrate-sdk?id=Ka5d52ewngdoi)documentation,Integrate security images and reset AppKey and AppSecret.
 
-#### 二、界面
+#### II.Interface
 
-在完成以上项目配置后，运行程序，App展示各个界面如下：
+After completing the above project configuration, run the program, and the APP displays each interface as follows:
 
-|                             首页                             |                             注册                             |                             登录                             |
+|                             FirstPage                             |                             Register                             |                             Login                             |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://images.tuyacn.com/app/Hanh/IMG_0891.PNG" alt="7f02e6c5e6654a882713361ae88a679c" style="zoom:20%;" /> | <img src="https://images.tuyacn.com/app/Hanh/IMG_0894.PNG" alt="062740ed7623c6fbb7220742e2e01d4d" style="zoom:20%;" /> | <img src="https://images.tuyacn.com/app/Hanh/IMG_0892.PNG" alt="b6f57d71a6a114676585cee34ab29abe" style="zoom:20%;" /> |
-|                           重置密码                           |                             主页                             |                           用户信息                           |
-| <img src="https://images.tuyacn.com/app/Hanh/IMG_0893.PNG" alt="a33ffb858ea3f3299a0f661d6a8e965c" style="zoom:20%;" /> | <img src="https://images.tuyacn.com/app/Hanh/IMG_0890.PNG" alt="8bd282665945cf600bce2ae173cd5ddd" style="zoom:20%;" /> | <img src="https://images.tuyacn.com/app/Hanh/IMG_0899.PNG" alt="5522fbc1d3735be6db9a365e47a8ce44" style="zoom:20%;" /> |
-|                            EZ配网                            |                           设备列表                           |                           控制面板                           |
-| <img src="https://images.tuyacn.com/app/Hanh/IMG_0897.PNG" alt="ca90caaa492e99c5afa4d41bdf0de309" style="zoom:20%;" /> | <img src="https://images.tuyacn.com/app/Hanh/IMG_0900.PNG" alt="5946494f90544ed818ce4e0c7b9e90d5" style="zoom:20%;" /> | <img src="https://images.tuyacn.com/app/Hanh/IMG_0898.PNG" alt="3cc502c2bfdfd7585606536abde102cd" style="zoom:20%;" /> |
-|                            创建家庭                            |                                                      |                                                      |
-| <img src="https://images.tuyacn.com/app/Hanh/IMG_0896.PNG" alt="ca90caaa492e99c5afa4d41bdf0de309" style="zoom:20%;" /> | 
+| <img src="https://images.tuyacn.com/app/Hanh/IMG_0901.PNG" alt="7f02e6c5e6654a882713361ae88a679c" style="zoom:20%;" /> | <img src="https://images.tuyacn.com/app/Hanh/IMG_0902.PNG" alt="062740ed7623c6fbb7220742e2e01d4d" style="zoom:20%;" /> | <img src="https://images.tuyacn.com/app/Hanh/IMG_0903.PNG" alt="b6f57d71a6a114676585cee34ab29abe" style="zoom:20%;" /> |
+|                           Reset Password                           |                             HomePage                             |                           User Information                           |
+| <img src="https://images.tuyacn.com/app/Hanh/IMG_0904.PNG" alt="a33ffb858ea3f3299a0f661d6a8e965c" style="zoom:20%;" /> | <img src="https://images.tuyacn.com/app/Hanh/IMG_0905.PNG" alt="8bd282665945cf600bce2ae173cd5ddd" style="zoom:20%;" /> | <img src="https://images.tuyacn.com/app/Hanh/IMG_0906.PNG" alt="5522fbc1d3735be6db9a365e47a8ce44" style="zoom:20%;" /> |
+|                            EZ Mode                            |                           Device List                           |                           Control Panel                           |
+| <img src="https://images.tuyacn.com/app/Hanh/IMG_0907.PNG" alt="ca90caaa492e99c5afa4d41bdf0de309" style="zoom:20%;" /> | <img src="https://images.tuyacn.com/app/Hanh/IMG_0908.PNG" alt="5946494f90544ed818ce4e0c7b9e90d5" style="zoom:20%;" /> | <img src="https://images.tuyacn.com/app/Hanh/IMG_0909.PNG" alt="3cc502c2bfdfd7585606536abde102cd" style="zoom:20%;" /> |
+|                            New Home                            |                                                      |                                                      |
+| <img src="https://images.tuyacn.com/app/Hanh/IMG_0910.PNG" alt="ca90caaa492e99c5afa4d41bdf0de309" style="zoom:20%;" /> | 
 
  
 
-#### 三、用户管理模块
+#### III.User Management Module
 
-用户管理模块涉及到用户注册登录以及密码重置，关于用户管理更多信息说明以及Api接口调用，请查阅[用户管理](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/user?id=Ka5cgmm97jlt2)。
+User management module involves user registration, login and password reset. For more information about user management and API interface call, please refer to [User Management](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/user?id=Ka5cgmm97jlt2)。
 
-##### 3.1、获取验证码
+##### 3.1 Get verifyCode
 
 ```objc
 // phone
@@ -60,7 +60,7 @@ Tuya iOS Smart Planter Sample 已实现以下功能：
     NSLog(@"sendVerifyCode failure: %@", error);
 }];
 ```
-##### 3.2、用户注册
+##### 3.2 User registration
 
 ```objc
 // phone
@@ -78,7 +78,7 @@ Tuya iOS Smart Planter Sample 已实现以下功能：
 }];
 ```
 
-##### 3.3、用户登录
+##### 3.3 User login
 
 ```java
 // phone
@@ -95,7 +95,7 @@ Tuya iOS Smart Planter Sample 已实现以下功能：
 }];
 ```
 
-##### 3.4、重置密码
+##### 3.4 Reset password
 
 ```objc
 // phone
@@ -110,7 +110,7 @@ Tuya iOS Smart Planter Sample 已实现以下功能：
 		NSLog(@"resetPasswordByEmail failure: %@", error);
 	}];
 ```
-##### 3.5、用户登出
+##### 3.5 User logout
 
 ```java
 [TuyaSmartUser sharedInstance] loginOut:^{
@@ -120,23 +120,23 @@ Tuya iOS Smart Planter Sample 已实现以下功能：
 }];});
 ```
 
-> 如果在注册或者登录的时候提示权限不足，请检查是否正确完成了项目配置步骤。
+> If you are warned of insufficient permissions when registering or logging in, check that you have completed the project configuration steps correctly.
 
-#### 四、家庭管理模块
+#### Ⅳ.Home Management Module
 
-涂鸦设备在添加之前，需要创建家庭，本Demo仅在程序启动的时候，根据用户的手机信息创建了一个默认家庭，关于家庭管理的更多信息以及相关Api接口，请查阅[家庭管理](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/home?id=Ka5d52ey6e58h)。
+Before the Tuya device is added, a family needs to be created. This Demo only creates a default family according to the user's mobile phone information when the program is started. For more information about family management and related API interfaces, please refer to [Home Management](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/home?id=Ka5d52ey6e58h)。
 
-##### 4.1、获取家庭列表
+##### 4.1 Get family list
 
 ```objc
 [self.homeManager getHomeListWithSuccess:^(NSArray<TuyaSmartHomeModel *> *homes) {
-        // homes 家庭列表
+        // homes Family List
     } failure:^(NSError *error) {
         NSLog(@"get home list failure: %@", error);
     }];
 ```
 
-##### 4.2、创建家庭
+##### 4.2 New home
 
 ```objc
 [self.homeManager addHomeWithName:@"you_home_name"
@@ -146,26 +146,26 @@ Tuya iOS Smart Planter Sample 已实现以下功能：
                         longitude:lon
                           success:^(double homeId) {
 
-        // homeId 创建的家庭的 homeId
+        // homeId 
         NSLog(@"add home success");
     } failure:^(NSError *error) {
         NSLog(@"add home failure: %@", error);
     }];
 ```
 
-##### 4.3、获取家庭的详细信息
+##### 4.3 Get family details
 
 ```objc
 self.home = [TuyaSmartHome homeWithHomeId:homeId];
 	[self.home getHomeDetailWithSuccess:^(TuyaSmartHomeModel *homeModel) {
-        // homeModel 家庭信息
+        // homeModel  Family Details
         NSLog(@"get home detail success");
     } failure:^(NSError *error) {
         NSLog(@"get home detail failure: %@", error);
     }];
 ```
 
-##### 4.4、修改家庭信息
+##### 4.4 Modify family information
 
 ```objc
 self.home = [TuyaSmartHome homeWithHomeId:homeId];
@@ -176,7 +176,7 @@ self.home = [TuyaSmartHome homeWithHomeId:homeId];
     }];
 ```
 
-##### 4.5、解散家庭
+##### 4.5 Dissolve family
 
 ```objc
 [self.home dismissHomeWithSuccess:^() {
@@ -190,28 +190,28 @@ self.home = [TuyaSmartHome homeWithHomeId:homeId];
 
 
 
-#### 五、设备配网模块
+#### V.Network Module
 
-智能WiFi植物生长机支持WiFi模式下EZ配网、AP配网，更多设备配网信息以及API接口，请查阅[设备配网](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/activator?id=Ka5cgmlzpfig4)。
+Intelligent WIFI plant growth machine supports EZ distribution network and AP distribution network under WIFI mode. For more equipment distribution network information and API interface, please refer to [Network Module](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/activator?id=Ka5cgmlzpfig4)。
 
-开始配网之前，SDK 需要在联网状态下从涂鸦云获取配网 Token，Token 的有效期为10分钟，且配置成功后就会失效（再次配网需要重新获取）。
+Before network distribution, the SDK needs to obtain the distribution network Token from the Tuya Cloud in the networking state. The Token is valid for 10 minutes and will become invalid after successful configuration (the distribution network needs to be acquired again).
 
-##### 5.1、配网 Token 获取接口
+##### 5.1 Network token access
 ```objc
 - (void)getTokenWithHomeId:(long long)homeId
                    success:(TYSuccessString)success
                    failure:(TYFailureError)failure;
 ```
-**参数说明**
+**Parameters explain**
 
-| 参数   | 说明                      |
+| Parameters   | explain                      |
 | :----- | :------------------------ |
-| homeId | 设备将要绑定到的家庭的 Id |
-| success   | 成功回调，返回配网 Token |
-| failure | 失败回调，返回失败原因 |
+| homeId | The ID of the home to which the device will bind |
+| success   | Successful callback returns the distribution network Token |
+| failure | A failure callback that returns the reason for the failure |
 
 
-##### 5.2、开始配网接口
+##### 5.2 Start configuring the network
 ```objc
 - (void)startConfigWiFi:(TYActivatorMode)mode
                    ssid:(NSString *)ssid
@@ -219,51 +219,51 @@ self.home = [TuyaSmartHome homeWithHomeId:homeId];
                   token:(NSString *)token
                 timeout:(NSTimeInterval)timeout;
 ```
-**参数说明**
+**Parameters explain**
 
-| 参数   | 说明                      |
+| Parameters   | explain                      |
 | :----- | :------------------------ |
-| mode | 配网模式 |
-| ssid   | Wi-Fi 名称 |
-| password | Wi-Fi 密码 |
-| token | 配网 Token |
-| timeout | 超时时间，默认 100 秒 |
+| mode | Distribution network model |
+| ssid   | Wi-Fi name |
+| password | Wi-Fi password |
+| token | Distribution network Token |
+| timeout | Timeout time, default 100 seconds |
 
 
-##### 5.3、配网代理回调
+##### 5.3 Distribution network agent callback
 ```objc
 - (void)activator:(TuyaSmartActivator *)activator didReceiveDevice:(TuyaSmartDeviceModel *)deviceModel error:(NSError *)error;
 ```
-**参数说明**
+**Parameters explain**
 
-| 参数   | 说明                      |
+| Parameters   | explain                      |
 | :----- | :------------------------ |
-| activator | 配网使用 TuyaSmartActivator 对象实例 |
-| deviceModel   | 配网成功时，返回此次配网的设备模型，失败时返回 nil |
-| error | 配网失败时，标示错误信息，成功时为 nil |
+| activator | The distribution network uses the Tuyasmartactivator object instance |
+| deviceModel   | When the distribution network is successful, the device model of the distribution network is returned; when it fails, nil is returned |
+| error | When the distribution network fails, the error message is marked, and when it succeeds, it is nil |
 
 
-##### 5.4、停止配网
+##### 5.4 Stop the distribution network
 ```objc
 - (void)stopConfigWiFi;
 ```
 
 
 
-#### 六、设备管理
+#### VI.Equipment management
 
-当设备配网成功后，可以在设备列表查看到已配网的植物生长机设备，选中设备，进入控制面板,关于设备更多信息以及API接口请查阅[设备管理](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/device?id=Ka5cgmmjr46cp)。
+When the equipment is successfully networked, you can view the networked plant growth machine equipment in the device list. Select the device and enter the control panel. For more information about the device and the API interface, please refer to [Equipment management](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/device?id=Ka5cgmmjr46cp)。
 
-##### 6.1、设备初始化
+##### 6.1 Device initialization
 
-注意：需要通过 TuyaSmartHome 初始化一个 home 实例，然后调用接口 getHomeDetailWithSuccess:failure: 获取家庭的详情，同步过家庭的详情后，初始化设备才能成功。
+Note: need to TuyaSmartHome initialize a home as an example, and then call interface getHomeDetailWithSuccess: failure: for details of the family, after synchronization family details, initialize the equipment to be successful.
 
-错误的设备 id 可能会导致初始化失败，此时设备的实例返回 nil
+The wrong device ID may cause initialization to fail, in which case the instance of the device returns nil
 
 ```objc
 /**
  *  Get TuyaSmartDevice instance. If current user don't have this device, a nil will be return.
- *  获取设备实例。如果当前用户没有该设备，将会返回nil。
+ *  Get the device instance. If the current user does not have the device, nil will be returned.
  *
  *  @param devId Device ID
  *  @return instance
@@ -272,7 +272,7 @@ self.home = [TuyaSmartHome homeWithHomeId:homeId];
 ```
 
 
-##### 6.2、设备代理监听
+##### 6.2 Device agent monitoring
 
 ```objc
 - (void)initDevice {
@@ -283,58 +283,58 @@ self.home = [TuyaSmartHome homeWithHomeId:homeId];
 #pragma mark - TuyaSmartDeviceDelegate
 
 - (void)device:(TuyaSmartDevice *)device dpsUpdate:(NSDictionary *)dps {
-    // 设备的 dps 状态发生变化，刷新界面 UI
+    // The DPS status of the device changes, and the UI of the interface is refreshed
 }
 
 - (void)deviceInfoUpdate:(TuyaSmartDevice *)device {
-    //当前设备信息更新 比如 设备名称修改、设备在线离线状态等
+    //Current device information update, such as device name change, device online and offline status, etc
 }
 
 - (void)deviceRemoved:(TuyaSmartDevice *)device {
-    //当前设备被移除
+    //The current device has been removed
 }
 
 - (void)device:(TuyaSmartDevice *)device signal:(NSString *)signal {
-    // Wifi信号强度
+    // WIFI Signal Strength
 }
 
 - (void)device:(TuyaSmartDevice *)device firmwareUpgradeProgress:(NSInteger)type progress:(double)progress {
-    // 固件升级进度
+    // Firmware upgrade progress
 }
 
 - (void)device:(TuyaSmartDevice *)device firmwareUpgradeStatusModel:(TuyaSmartFirmwareUpgradeStatusModel *)upgradeStatusModel {
-    // 设备升级状态的回调
+    // A callback to the device upgrade status
 }
 ```
 
-##### 6.3、设备控制
+##### 6.3 Device control
 
-设备控制接口功能为向设备发送功能点，来改变设备状态或功能。
-设备控制支持三种通道控制，局域网控制，云端控制和自动方式（如果局域网在线，先走局域网控制，局域网不在线，走云端控制）
+The function of the device control interface is to send function points to the device to change the device state or function.
+Device control supports three channel control, LAN control, cloud control and automatic mode (if LAN is online, LAN control first, LAN is not online, cloud control)
 
-设备功能点说明: 
-TuyaSmartDeviceModel 类的 dps 属性（NSDictionary 类型）定义了当前设备的状态，称作数据点（DP 点）或功能点
-dps 字典里的每个 key 对应一个功能点的 dpId，value 对应一个功能点的 dpValue ，dpValue 为该功能点的值
+Description of equipment function points:
+The DPS property of the TuyasmartDeviceModel class (type NSDictionary) defines the state of the current device, called a data point (DP point) or function point
+Each key in the DPS dictionary corresponds to the dPID of a function point, and the value corresponds to the dpValue of a function point, and dpValue is the value of the function point
 
-发送控制指令按照以下格式：
+Control instructions are sent in the following format:
 {"<dpId>":"<dpValue>"}
 
 ```objc
-局域网控制：
+LAN control:
 [self.device publishDps:dps mode:TYDevicePublishModeLocal success:^{
 		NSLog(@"publishDps success");
 	} failure:^(NSError *error) {
 		NSLog(@"publishDps failure: %@", error);
 	}];
 
-云端控制：
+Cloud control:
 [self.device publishDps:dps mode:TYDevicePublishModeInternet success:^{
 		NSLog(@"publishDps success");
 	} failure:^(NSError *error) {
 		NSLog(@"publishDps failure: %@", error);
 	}];
 	
-自动控制：
+Automatic control:
 [self.device publishDps:dps mode:TYDevicePublishModeAuto success:^{
 		NSLog(@"publishDps success");
 	} failure:^(NSError *error) {
@@ -342,17 +342,17 @@ dps 字典里的每个 key 对应一个功能点的 dpId，value 对应一个功
 	}];
 ```
 
-##### 6.4、设备移除
+##### 6.4 Equipment remove
 
-设备被移除后，会重新进入待配网状态（快连模式）
+After the device is removed, it will re-enter the state of pending network (fast connection mode).
 
 ```objc
 - (void)remove:(nullable TYSuccessHandler)success failure:(nullable TYFailureError)failure;
 ```
 
-##### 6.5、恢复出厂设置
+##### 6.5 Factory data reset
 
-设备恢复出厂设置后，会重新进入待配网状态（快连模式），设备的相关数据会被清除掉
+After the factory setting is restored, the device will re-enter the state of the pending network (fast connection mode), and the relevant data of the device will be erased
 
 ```objc
 - (void)resetFactory:(nullable TYSuccessHandler)success failure:(nullable TYFailureError)failure;
@@ -360,18 +360,18 @@ dps 字典里的每个 key 对应一个功能点的 dpId，value 对应一个功
 
 
 
-#### 七、DIY 
+#### VII.DIY 
 
-通过智能植物生长机的控制面板可以看到，我们可以对植物生长机的开关、温度、湿度等信息进行监测和控制，在此基础上，开发者可以通过设置不同场景来对设备进行不同diy操作,比如你可以设置一个场景，当温度大于30摄氏度时候自动打开水泵开关。
-
-
+Through smart plant growth machine control panel you can see, we can switch on plant growth machine, temperature and humidity monitoring and control of information, on this basis, the developer can set different scenarios to diy different operating equipment, you can set a scene, for example, when more than 30 degrees Celsius temperature automatically open water pump switch.
 
 
-问题反馈
+
+
+The problem of feedback
 ------------------------
 
-您可以通过**Github Issue** 或通过[**工单**](https://service.console.tuya.com)来进行反馈您所碰到的问题
+You can use the**Github Issue** or [**work order**](https://service.console.tuya.com) to provide feedback on any problems you encounter
 
 LICENSE
 ------------------------
-Tuya iOS Smart Planter Sample是在MIT许可下提供的。更多信息请参考[LICENSE](LICENSE)文件
+The Tuya IOS Smart Planter Sample is provided under the MIT license. See the [LICENSE](LICENSE) file for more information
