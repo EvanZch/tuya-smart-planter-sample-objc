@@ -370,7 +370,7 @@ Through smart plant growth machine control panel you can see, we can switch on p
 The problem of feedback
 ------------------------
 
-You can use the**Github Issue** or [**work order**](https://service.console.tuya.com) to provide feedback on any problems you encounter
+You can use the**Github Issue** or [**ticket**](https://service.console.tuya.com) to provide feedback on any problems you encounter
 
 LICENSE
 ------------------------
