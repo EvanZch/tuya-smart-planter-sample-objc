@@ -15,8 +15,11 @@ The Tuya IOS Smart Planter Sample has realized the following functions:
 - Equipment control module (plant growth machine switch, wind speed control, temperature and humidity monitoring, soil moisture, lighting, etc.)
 
 
-#### Prerequisites
+Prerequisites
+------------------------
+
 1.Xcode 12.0 and later
+
 2.iOS 12 and later
 
 Start
