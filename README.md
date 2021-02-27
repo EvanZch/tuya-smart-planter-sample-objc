@@ -29,7 +29,7 @@ Start
 
 1.According to the [Preparation](https://developer.tuya.com/cn/docs/app-development/preparation/preparation?id=Ka69nt983bhh5) documentation,register the Doodle Developer account and complete the creation of the application, replacing the package name of Sample with the package name set at creation time.
 
-2.According to the[Integration SDK](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/integrate-sdk?id=Ka5d52ewngdoi)documentation,Integrate security images and reset AppKey and AppSecret.
+2.According to the [Integration SDK](https://developer.tuya.com/cn/docs/app-development/ios-app-sdk/integrate-sdk?id=Ka5d52ewngdoi) documentation,Integrate security images and reset AppKey and AppSecret.
 
 #### II.Interface
 
