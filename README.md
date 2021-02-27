@@ -14,6 +14,14 @@ The Tuya IOS Smart Planter Sample has realized the following functions:
 - Equipment distribution network module (EZ distribution network mode)
 - Equipment control module (plant growth machine switch, wind speed control, temperature and humidity monitoring, soil moisture, lighting, etc.)
 
+
+Prerequisites
+------------------------
+
+1.Xcode 12.0 and later
+
+2.iOS 12 and later
+
 Start
 ------------------------
 
@@ -341,6 +349,37 @@ Automatic control:
 		NSLog(@"publishDps failure: %@", error);
 	}];
 ```
+DP control points of plant growth machine:
+
+1. Switch: start and close the device
+
+2. Water tank pumping pump switch: after the equipment is started, turn on the water pump to fill the water tank
+
+3. Current temperature and humidity display
+
+4. Timing of lights: control the lighting time
+
+5. Light countdown
+
+6. Fault warning: display the fault code
+
+7. Set the maximum temperature: when the temperature is higher than the maximum temperature, the light will turn off and the fan will start
+
+8. Set the maximum humidity: when the humidity is higher than the maximum humidity, the fan will start
+
+9. Water tank volume
+
+10. Set light colors
+
+11. Set the minimum temperature: When the temperature is below the minimum temperature, the light turns on
+
+12. Set the minimum humidity: When the humidity is below the minimum humidity, the soil pump will be turned on to water the plants from the tank
+
+13. Automatic light switch
+
+14. Device removal switch: remove the current distribution network equipment, so that the equipment into the distribution network mode again
+
+
 
 ##### 6.4 Equipment remove
 
